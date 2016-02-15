@@ -14,9 +14,9 @@ The easiest way to keep CSS maintainable is by writing less of it.
 	* All styles should follow the principle of keeping specificity as low as possible.
 
 
-## Architecture
+## Folder Architecture
 
-The source order is designed to take advantage of inheritance in the cascade with the goal of  writing DRYer code.
+The folder structure is designed to take advantage of inheritance in the cascade with the goal of writing DRYer code.
 
 * Reset
 * Variables (used throughout the project)
@@ -26,7 +26,7 @@ The source order is designed to take advantage of inheritance in the cascade wit
 * Sections (combinations of components)
 * Overrides
 
-The source order:
+The folder structure:
 
  
 * Settings
