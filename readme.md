@@ -1,9 +1,5 @@
 # CSS Coding Standards
 
-
-[Documentation](http://documentup.com/Salesfloor/css-architecture?theme=v1)
-
-
 ## Philosophy
 
 The easiest way to keep CSS maintainable is by writing less of it.
@@ -117,25 +113,6 @@ At most, aim for two levels. It is perfectly reasonable to use nesting when crea
 * Less efficient.
 * If you cannot help it, step back and rethink your overall strategy (either the specificity needed, or the layout of the nesting).
 
-#### Organisation
-
-CSS attributes should be organized by types, like:
-
-```
-[selectors] {
-	//layout
-	margin: 0 0 0 0;
-	[property]: [value];
-
-	//skin
-	background: $background-color;
-	[property]: [value];
-
-	//typo
-	font-size: 12px;
-	[property]: [value];
-}
-```
 
 ### Naming conventions
 
